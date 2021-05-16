@@ -1,2 +1,14 @@
-# swapping-of-two-numbers-without-using-third-vriable
-swapping
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("enter value of a:");
+scanf("%d",&a);
+printf("enter value of b:");
+scanf("%d",&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("now value of a is:%d",a);
+printf("now value of b is:%d",b);
+}
